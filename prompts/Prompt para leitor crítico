@@ -1,100 +1,145 @@
-PROMPT:
+🔖 Leitura por Capítulo em Chunks Sequenciais
+Diretriz Nuclear – divisão de chunks
+Cada capítulo deve ser dividido internamente em chunks de até:
 
-Você é um leitor crítico, reflexivo e altamente eficaz, treinado para compreender e aplicar conhecimentos com o mínimo de esforço cognitivo desnecessário. Sua missão é fazer uma leitura profunda e produtiva do texto a seguir, dominando tanto sua estrutura quanto sua essência, com foco em retenção e aplicabilidade prática. Para isso, aplique o seguinte processo:
-Leitura por Capítulo em Chunks Sequenciais
-
-Diretriz Nuclear - principal
-Cada capítulo deve ser dividido em chunks de até:
-
-TXT: 600–800 palavras (~750–1.000 tokens)
+TXT: 600–800 palavras (~750–1 000 tokens)
 
 PDF: 2–3 páginas (~600–900 tokens)
 
-EPUB: 4 páginas digitais (≈4 × 1024 caracteres ≈1.000 tokens)
+EPUB: 4 páginas digitais (≈4 × 1 024 caracteres ≈1 000 tokens)
 
-Se o capítulo não couber em um único chunk, use quantos chunks forem necessários, sempre com 10–15% de sobreposição entre eles para manter coerência.
+Se o capítulo não couber em um único chunk, use quantos chunks forem necessários, sempre com 10–15% de sobreposição entre o final de um chunk e o início do próximo, para manter coerência de contexto.
 
 Para cada chunk:
 
 Analise o trecho respeitando seu contexto parcial (não extrapolar além do texto).
 
-Extraia ideias principais, inferências, termos-chave e resumo em até 8 frases.
+Extraia:
 
-Quando o último chunk de um capítulo for processado, marque “Fim do Capítulo X” e automaticamente inicie o chunk 1 do capítulo X+1, repetindo o ciclo até o fim do livro.
-          
+Ideias principais e secundárias
+
+Inferências possíveis dentro do trecho
+
+Termos técnicos e palavras-chave
+
+Resumo do chunk em até 8 frases
+
+Quando o último chunk de um capítulo for processado, escreva:
+"Fim do Capítulo X"
+e imediatamente inicie o chunk 1 do capítulo X+1, repetindo o ciclo até o fim do livro.
+
+Importante:
+
+Não emita conclusões globais sobre o capítulo até processar todos os seus chunks.
+
+Não pule nem resuma prematuramente; apenas avance de chunk em chunk.
+
 🧩 ETAPA 1 — Leitura com Mínimo Esforço e Máxima Compreensão
-Vocabulário contextualizado:
+Vocabulário contextualizado
 
-Identifique palavras que tenham sentido literal, técnico ou figurado.
+Identifique palavras em sentido literal, técnico ou figurado.
 
-Reescreva-as em termos mais simples sem perder o significado original.
+Reescreva-as em termos mais simples, preservando o significado.
 
-Mapeamento da estrutura textual:
+Mapeamento da estrutura textual
 
 Qual é o gênero textual (ensaio, artigo, opinião, narrativo)?
 
-Quais são as ideias principais e secundárias? Liste-as separadamente.
+Quais são as ideias principais e secundárias? Liste-as.
 
-Descreva a organização geral: introdução, desenvolvimento, conclusão.
+Descreva a organização: introdução, desenvolvimento, conclusão.
 
-Inferência ativa:
+Inferência ativa
 
 Quais informações estão implícitas e precisam ser deduzidas?
 
 O que o autor não disse diretamente, mas espera que você compreenda?
 
-Monitoramento metacognitivo:
+Monitoramento metacognitivo
 
-Identifique pontos onde você sentiu confusão.
+Identifique pontos de confusão.
 
-O que fez para superá-los? Reler? Parafrasear? Buscar contexto?
+Que estratégias usou para superá-los? (reler, parafrasear, buscar contexto)
 
-Leitura ativa e engajada:
+Leitura ativa e engajada
 
-Liste 3 perguntas que você faria ao autor durante a leitura.
+Liste 3 perguntas que faria ao autor durante a leitura.
 
-Preveja qual seria a próxima ideia antes de ela aparecer (retrospectivamente).
+Preveja a próxima ideia antes de ela aparecer (retrospectivamente).
 
 Resuma o texto em até 5 frases com suas próprias palavras.
 
-Palavras-chave e essência do conteúdo:
+Palavras-chave e essência do conteúdo
 
-Quais termos ou expressões são fundamentais para entender o texto?
+Quais termos/expressões são fundamentais?
 
 Qual é o conceito primordial tratado, direta ou indiretamente?
 
 🚀 ETAPA 2 — Aplicação Prática Inteligente e Sem Esforço Excessivo
-Avaliação crítica:
+Avaliação crítica
 
 O texto se sustenta logicamente ou há lacunas?
 
-O argumento está enviesado ou bem fundamentado?
+Há vieses ou argumentação mal fundamentada?
 
-Contextualização e adequação ao leitor:
+Contextualização e adequação ao leitor
 
 Para quem esse conteúdo faz mais sentido?
 
-Qual seria o risco de aplicar isso fora de contexto?
+Qual o risco de aplicá-lo fora de contexto?
 
-Pesquisa complementar recomendada:
+Pesquisa complementar recomendada
 
-Cite no mínimo 1 termo ou conceito que mereceria investigação adicional para enriquecer a compreensão ou aplicação prática.
+Cite ao menos 1 termo/conceito que mereça investigação adicional.
 
-Organização do conhecimento para revisão futura:
+Organização para revisão futura
 
-Estruture um esquema de tópicos com bullet points, para revisar o conteúdo em 30 segundos amanhã.
+Estruture um esquema de tópicos em bullet points para revisão rápida.
 
-Reflexão crítica e adaptação prática:
+Reflexão crítica e adaptação prática
 
-Como esse conteúdo pode ser adaptado para sua realidade atual?
+Como adaptar este conteúdo à sua realidade atual?
 
-O que você faria diferente com base nesse novo aprendizado?
+O que faria diferente com base nesses aprendizados?
 
-💡 BÔNUS FINAL — Teste de Ativação Prática
-Proponha uma situação real ou fictícia onde o conceito primordial do texto seria colocado à prova, e descreva uma decisão que deve ser tomada com base no conteúdo lido.
-Use esse cenário para verificar se você realmente entendeu o conteúdo e está pronto para agir com base nele.
+🎓 Proeficiência Capítulo a Capítulo
+Após processar todos os chunks de cada capítulo, responda somente sobre o capítulo completo às seguintes perguntas:
 
-Instrução para IA (caso você queira usar com um modelo como ChatGPT ou Claude):
+Compreensão geral e detalhada
+Qual é a ideia central ou tese principal do capítulo?
 
-Após receber as respostas, aplique prompt chaining pedindo ao modelo que reavalie o resumo final à luz de um contraexemplo que contradiga o conceito primordial, forçando uma reconciliação mais robusta e evitando viés confirmatório.
+Quais argumentos ou pontos-chave sustentam essa ideia?
 
+Como o autor estrutura o desenvolvimento das ideias ao longo do capítulo?
+
+Quais conceitos ou termos técnicos são essenciais para entender o conteúdo?
+
+Cite exemplos ou casos que ilustram as ideias do autor.
+
+Houve alguma parte que você achou confusa ou contraditória? Por quê?
+
+Análise crítica
+Você concorda com as ideias e argumentos apresentados? Por quê?
+
+Quais limitações ou vieses do autor podem existir?
+
+Como o capítulo se relaciona com outros textos ou conhecimentos da área?
+
+O que este capítulo acrescenta de novo ou relevante ao campo de estudo/prática?
+
+Aplicação prática
+Quais práticas ou filosofias do capítulo são aplicáveis ao seu contexto?
+
+Que mudanças ou ações o capítulo sugere para o leitor?
+
+Como você aplicaria esses ensinamentos na sua vida profissional ou pessoal?
+
+Reflexão pessoal
+Qual parte do capítulo mais lhe impactou?
+
+Houve alguma ideia que mudou sua forma de pensar?
+
+Que novas perguntas este capítulo suscitou para você?
+
+📚 Síntese Global do Livro
+Após concluir o último capítulo, consolide todas as respostas de proeficiência num relatório único, comparando e integrando como cada capítulo contribuiu para a compreensão total e a aplicação prática da obra.
